@@ -1,0 +1,53 @@
+name: Bug report
+description: 再現可能な不具合を報告する
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: セキュリティ上の問題は公開せず、SECURITY.md の手順に従ってください。
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: 例：macOS 15.6
+    validations:
+      required: true
+  - type: input
+    id: keyboard
+    attributes:
+      label: Keyboard
+      placeholder: 例：MacBook Pro 内蔵 US キーボード
+    validations:
+      required: true
+  - type: input
+    id: sources
+    attributes:
+      label: Input sources
+      placeholder: 例：ABC、日本語 - ローマ字入力
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: 問題を再現するための手順を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context

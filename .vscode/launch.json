@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:kana-en}",
+            "name": "Debug KanaEn",
+            "target": "KanaEn",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug KanaEn"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:kana-en}",
+            "name": "Release KanaEn",
+            "target": "KanaEn",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release KanaEn"
+        }
+    ]
+}
