@@ -1,7 +1,7 @@
 # KanaEn
 
 <p align="center">
-  <img src="Resources/KanaEn.iconset/icon_128x128@2x.png" alt="KanaEn アイコン" width="128" height="128">
+  <img src="docs/assets/kana-en-icon.png" alt="KanaEn アイコン" width="128" height="128">
 </p>
 
 [English](README.en.md)
