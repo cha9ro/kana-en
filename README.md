@@ -1,5 +1,9 @@
 # KanaEn
 
+<p align="center">
+  <img src="Resources/KanaEn.iconset/icon_128x128@2x.png" alt="KanaEn アイコン" width="128" height="128">
+</p>
+
 [English](README.en.md)
 
 左右の Command キーを単押しするだけで、英語／日本語の入力ソースを切り替える軽量な macOS メニューバーアプリです。

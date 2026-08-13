@@ -1,5 +1,9 @@
 # KanaEn
 
+<p align="center">
+  <img src="Resources/KanaEn.iconset/icon_128x128@2x.png" alt="KanaEn icon" width="128" height="128">
+</p>
+
 [日本語](README.md)
 
 KanaEn is a lightweight macOS menu bar app that switches input sources with a single press of either Command key.
